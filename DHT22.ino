@@ -61,6 +61,7 @@ void setup()
   Serial.println("Please wait a while");
   beta=(log(RT1/RT2))/((1/T1)-(1/T2));    // Setup thermistor calculation
   Rinf=R0*exp(-beta/T0);
+  digitalWrite(7, HIGH);    // I use it as power source how shielding, in case you do not use shielding, erase this line
   Serial.println("Setup done");
 }
 
