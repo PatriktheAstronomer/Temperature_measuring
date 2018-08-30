@@ -1,6 +1,6 @@
 <?php
-$MyUsername = "patriknovotny";
-$MyPassword = "fzu2018kldr";
+$MyUsername = "username";
+$MyPassword = "password";
 $MyHostname = "localhost";
 
 $con=mysqli_connect($MyHostname,$MyUsername, $MyPassword);
