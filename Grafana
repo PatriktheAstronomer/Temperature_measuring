@@ -5,4 +5,4 @@ mysql>SELECT
 mysql> FROM temperature 
 mysql> WHERE arduinoID = 1
 mysql> ORDER BY time ASC
-// That is just a example, how to draw diagram in Grafana from your data located in MySQL database
+// That is just an example, how to draw diagram in Grafana from your data located in MySQL database
