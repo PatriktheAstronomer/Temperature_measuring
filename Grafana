@@ -1,0 +1,8 @@
+
+SELECT
+  UNIX_TIMESTAMP(time) as time_sec,
+  temperature_2 as Termistor
+FROM temperature 
+WHERE arduinoID = 1
+ORDER BY time ASC
+// That is just a example, how to draw diagram in Grafana from your data located in MySQL database
