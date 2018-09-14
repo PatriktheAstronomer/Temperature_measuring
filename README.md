@@ -5,4 +5,5 @@ This project contains:<br />
 - Arduino code<br />
 - DHT 22 odd code<br />
 - php code<br />
+- Python script to sending data from Comet 1140 (represented by website), then we get XML file a its values we send to the database, too<br />
 - MySQL/Grafana example code to create a diagram<br />
